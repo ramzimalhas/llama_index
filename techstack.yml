@@ -1,0 +1,473 @@
+repo_name: ramzimalhas/llama_index
+report_id: a96ffde58ac4924cfe26d8a5cd248728
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T06:58:35+00:00'
+requested_by: entropi
+provider: github
+branch: main
+detected_tools_count: 35
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index
+  detection_source: Repo Metadata
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/llama_index/vector_stores/cassandra.py
+  detection_source: llama_index/vector_stores/cassandra.py
+  last_updated_by: Stefano Lottini
+  last_updated_on: 2023-10-26 07:32:27.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/llama_index/readers/mongo.py
+  detection_source: llama_index/readers/mongo.py
+  last_updated_by: David Chiu
+  last_updated_on: 2023-11-06 16:23:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/.github/workflows/build_package.yml
+  detection_source: ".github/workflows/build_package.yml"
+  last_updated_by: Jerry Liu
+  last_updated_on: 2022-12-04 20:49:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2022-11-10 04:47:26.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/tests/vector_stores/docker-compose/elasticsearch.yml
+  detection_source: tests/vector_stores/docker-compose/elasticsearch.yml
+  last_updated_by: Joseph McElroy
+  last_updated_on: 2023-09-26 16:03:30.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama_index
+  detection_source: Repo Metadata
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.339
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-11-15 16:23:07.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 1.3.3
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2022-11-10 04:47:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index
+  detection_source: Repo Metadata
+- name: SQLAlchemy
+  description: Database Abstraction Library
+  package_url: https://pypi.org/project/SQLAlchemy
+  version: 1.4.49
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Javier Torres
+  last_updated_on: 2023-10-12 04:05:52.000000000 Z
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-11-17 17:38:20.000000000 Z
+- name: asyncpg
+  description: An asyncio PostgreSQL driver
+  package_url: https://pypi.org/project/asyncpg
+  version: 0.28.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20348/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: James Braza
+  last_updated_on: 2023-10-25 01:06:10.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-11-15 16:23:07.000000000 Z
+- name: dataclasses-json
+  description: Easily serialize dataclasses to and from JSON
+  package_url: https://pypi.org/project/dataclasses-json
+  version: 0.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20519/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: James Braza
+  last_updated_on: 2023-11-21 01:16:00.000000000 Z
+- name: deprecated
+  description: Python @deprecated decorator to deprecate old python classes
+  package_url: https://pypi.org/project/deprecated
+  version: 1.2.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20346/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Karan Acharya
+  last_updated_on: 2023-10-22 07:39:21.000000000 Z
+- name: docutils
+  description: Docutils -- Python Documentation Utilities
+  package_url: https://pypi.org/project/docutils
+  version: '0.16'
+  license: Unlicense,Python-2.0,BSD-2-Clause,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19874/default_7ed3c4ccf2a3218ae3655165b980bd4a90a445dc.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: docs/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-04-16 05:02:08.000000000 Z
+- name: fsspec
+  description: File-system specification
+  package_url: https://pypi.org/project/fsspec
+  version: 2023.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-10-11 03:37:43.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.25.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-11-17 17:38:20.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.339
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-11-15 16:23:07.000000000 Z
+- name: nest-asyncio
+  description: Patch asyncio to allow nested event loops
+  package_url: https://pypi.org/project/nest-asyncio
+  version: 1.5.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20756/default_3b89e4079f3032d1be4fc7657dcb47e23c973660.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: James Braza
+  last_updated_on: 2023-10-25 01:06:10.000000000 Z
+- name: nltk
+  description: Natural Language Toolkit
+  package_url: https://pypi.org/project/nltk
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-10-11 03:37:43.000000000 Z
+- name: numpy
+  description: NumPy is the fundamental package for array computing with Python
+  package_url: https://pypi.org/project/numpy
+  version: 1.24.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-10-11 22:25:54.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 1.3.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-11-07 04:47:42.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 2.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: James Braza
+  last_updated_on: 2023-11-21 01:16:00.000000000 Z
+- name: pgvector
+  description: Pgvector support for Python
+  package_url: https://pypi.org/project/pgvector
+  version: 0.1.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-10-22 07:24:40.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: docs/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-08-18 17:27:48.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-10-22 07:24:40.000000000 Z
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-10-22 07:24:40.000000000 Z
+- name: sphinx_rtd_theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx_rtd_theme
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: Laurie Voss
+  last_updated_on: 2023-11-22 17:30:24.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-10-11 03:37:43.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.8.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-11-23 01:54:53.000000000 Z
+- name: typing-inspect
+  description: Runtime inspection utilities for typing module
+  package_url: https://pypi.org/project/typing-inspect
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-10-11 03:37:43.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/ramzimalhas/llama_index/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-10-11 03:37:43.000000000 Z
