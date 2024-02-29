@@ -3,15 +3,15 @@
 ## Tech Stack
 ramzimalhas/llama_index is built on the following main stack:
 
-- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - [Python](https://www.python.org) – Languages
-- [MongoDB](http://www.mongodb.com/) – Databases
 - [Cassandra](http://cassandra.apache.org/) – Databases
-- [Jupyter](http://jupyter.org) – Data Science Notebooks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [MongoDB](http://www.mongodb.com/) – Databases
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [OpenAI](https://openai.com/) – Large Language Models
+- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- [Jupyter](http://jupyter.org) – Data Science Notebooks
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [OpenAI](https://openai.com/) – Large Language Models
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -21,15 +21,15 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 ramzimalhas/llama_index is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1032/cassandra_small.png' alt='Cassandra'/> [Cassandra](http://cassandra.apache.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -40,7 +40,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ramzimalhas/llama_index](https://github.com/ramzimalhas/llama_index)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|35<br/>Tools used|01/23/24 <br/>Report generated|
+|35<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -160,7 +160,7 @@ Full tech stack [here](/techstack.md)
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[SQLAlchemy](https://pypi.org/project/SQLAlchemy)|v1.4.49|10/12/23|Javier Torres |MIT|N/A|
-|[aiohttp](https://pypi.org/project/aiohttp)|v3.9.0|11/17/23|Logan |Apache-2.0|N/A|
+|[aiohttp](https://pypi.org/project/aiohttp)|v3.9.0|11/17/23|Logan |Apache-2.0|[CVE-2024-23334](https://github.com/advisories/GHSA-5h86-8mv2-jq9f) (Moderate)<br/>[CVE-2024-23829](https://github.com/advisories/GHSA-8qpw-xqxj-h4r2) (Moderate)|
 |[asyncpg](https://pypi.org/project/asyncpg)|v0.28.0|10/25/23|James Braza |Apache-2.0|N/A|
 |[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.12.2|11/15/23|Simon Suo |MIT|N/A|
 |[dataclasses-json](https://pypi.org/project/dataclasses-json)|v0.6.2|11/21/23|James Braza |MIT|N/A|
@@ -168,7 +168,7 @@ Full tech stack [here](/techstack.md)
 |[docutils](https://pypi.org/project/docutils)|v0.16|04/16/23|Jerry Liu |Unlicense,Python-2.0,BSD-2-Clause,CNRI-Python-GPL-Compatible|N/A|
 |[fsspec](https://pypi.org/project/fsspec)|v2023.10.0|10/11/23|Logan |BSD-3-Clause|N/A|
 |[httpx](https://pypi.org/project/httpx)|v0.25.1|11/17/23|Logan |BSD-3-Clause|N/A|
-|[langchain](https://pypi.org/project/langchain)|v0.0.339|11/15/23|Simon Suo |N/A|N/A|
+|[langchain](https://pypi.org/project/langchain)|v0.0.339|11/15/23|Simon Suo |N/A|[CVE-2024-0243](https://github.com/advisories/GHSA-h9j7-5xvc-qhg5) (Low)|
 |[nest-asyncio](https://pypi.org/project/nest-asyncio)|v1.5.8|10/25/23|James Braza |BSD-2-Clause|N/A|
 |[nltk](https://pypi.org/project/nltk)|v3.8.1|10/11/23|Logan |Apache-2.0|N/A|
 |[numpy](https://pypi.org/project/numpy)|v1.24.4|10/11/23|Logan |BSD-3-Clause|N/A|
