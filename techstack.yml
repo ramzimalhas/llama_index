@@ -2,7 +2,7 @@ repo_name: ramzimalhas/llama_index
 report_id: a96ffde58ac4924cfe26d8a5cd248728
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-23T06:58:35+00:00'
+timestamp: '2024-02-29T19:32:03+00:00'
 requested_by: entropi
 provider: github
 branch: main
@@ -167,6 +167,20 @@ tools:
   detection_source: pyproject.toml
   last_updated_by: Logan
   last_updated_on: 2023-11-17 17:38:20.000000000 Z
+  vulnerabilities:
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
 - name: asyncpg
   description: An asyncio PostgreSQL driver
   package_url: https://pypi.org/project/asyncpg
@@ -278,6 +292,13 @@ tools:
   detection_source: pyproject.toml
   last_updated_by: Simon Suo
   last_updated_on: 2023-11-15 16:23:07.000000000 Z
+  vulnerabilities:
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
 - name: nest-asyncio
   description: Patch asyncio to allow nested event loops
   package_url: https://pypi.org/project/nest-asyncio
